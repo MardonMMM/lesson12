@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1400px;
+    margin: auto;
+    border: 1px solid;
+    
+    height: 900px;
+    position: relative;
+    background: url(../img/stadium.jpg);
+    background-size: cover;
+}
+.container .player{
+    position: absolute;
+    top: 400px;
+    left: 200px;
+}
+.container .setka{
+    position: absolute;
+    top: 422px;
+    left: 1135px;
+    z-index: 3;
+    width: 150px;
+}
+.container .ball img{
+    width: 64px;
+    position: absolute;
+    z-index: 2;
+    top: 390px;
+    left: 360 px;
+    animation: anim 11s linear infinite;
+}
+ @keyframes anim {
+    0%   {
+        top: 390px;
+        left: 360px;
+        transform: rotateZ(45deg);
+    }
+    10%  {
+        top: 350px;
+        left: 440px;
+        transform: rotateZ(90deg);
+    }
+    15%   {
+        top: 270px;
+        left: 600px;
+        transform: rotateZ(270deg);
+    }
+    20% {
+        top: 250px;
+        left: 800px;
+        transform: rotateZ(450deg);
+        
+    }
+    25%  {
+        top: 310px;
+        left: 920px;
+        transform: rotateZ(630deg);
+    }
+    35%  {
+        top: 370px;
+        left: 1040px;
+        transform: rotateZ(810deg);
+    }
+    40%  {
+        top: 390px;
+        left: 1080px;
+        transform: rotateZ(855deg);
+    }
+    50% {
+        top: 420px;
+        left: 1080px;
+    }
+    60%{
+        top: 790px;
+        left: 860px;
+    }
+    65%{
+        top: 660px;
+        left: 800px;
+    }
+    70%{
+        top: 790px;
+        left: 750px;
+    }
+    73%{
+        top: 390px;
+        left: 360px;
+        transform: rotateZ(45deg);
+    }
+    76%  {
+        top: 350px;
+        left: 440px;
+        transform: rotateZ(90deg);
+    }
+    80%   {
+        top: 270px;
+        left: 600px;
+        transform: rotateZ(270deg);
+    }
+    83% {
+        top: 250px;
+        left: 800px;
+        transform: rotateZ(450deg);
+        
+    }
+    85%  {
+        top: 310px;
+        left: 1160px;
+        transform: rotateZ(630deg);
+    }
+    88%  {
+        top: 450px;
+        left: 1160px;
+        transform: rotateZ(675deg);
+    }
+    90%{
+        top: 510px;
+        left: 1160px;
+        transform: rotateZ(675deg);
+    }
+    95%{
+        top: 800px;
+        left: 750px;
+        transform: rotateZ(675deg);
+    }
+    100%{
+        top: 390px;
+        left: 360px;
+        transform: rotateZ(45deg);
+    }  
+  } 
